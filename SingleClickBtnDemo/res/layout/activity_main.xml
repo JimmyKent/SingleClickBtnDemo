@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.jimmy.singleclickbtndemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.jimmy.singleclickbtndemo.widget.SingleClickBtn
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        custom:time_gap="1000" />
+
+</RelativeLayout>
